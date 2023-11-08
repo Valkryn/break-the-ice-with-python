@@ -16,6 +16,7 @@
 #
 #
 def main():
+    # lst = list(filter(lambda x: x % 7 == 0 and x % 5 != 0, list(range(2000, 3200)))) one liner alternative.
     numbers = list(range(2000, 3200))
     lst = list(filter(filter_range, numbers))
     print(lst)
